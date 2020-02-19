@@ -15,7 +15,10 @@
   "author": "Leon",
   "license": "ISC",
   "dependencies": {
+    "ejs": "^3.0.1",
     "express": "^4.17.1",
+    "node-sass": "^4.13.1",
+    "node-sass-middleware": "^0.11.0",
     "nodemon": "^2.0.2"
   },
   "devDependencies": {
