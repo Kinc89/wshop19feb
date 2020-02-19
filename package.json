@@ -1,0 +1,16 @@
+{
+  "name": "whshop19feb",
+  "version": "0.0.1",
+  "description": "Simple webshop",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "webshop",
+    "minimal",
+    "fed19s"
+  ],
+  "author": "Leon",
+  "license": "ISC"
+}
