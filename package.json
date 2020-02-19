@@ -4,7 +4,8 @@
   "description": "Simple webshop",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "start": "nodemon index.js"
   },
   "keywords": [
     "webshop",
@@ -12,5 +13,12 @@
     "fed19s"
   ],
   "author": "Leon",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2"
+  },
+  "devDependencies": {
+    "supertest": "^4.0.2"
+  }
 }
