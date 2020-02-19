@@ -1,5 +1,9 @@
 //Härifrån startar vi vår webshop
-const {app, port } = require('./src/server')
+const mongoose = require('mongoose')
+const config = require('./config/config')
+const { app, port } = require('./src/server')
 
-
-app.listen(port, () => console.log(`Example all listening on ${port}!`))
+const dbOptions = {useUnifiedTopology: true, useNewUrlParser: true}
+mongoose.connect(config.databaseURL, dbOptions).then(() => {
+    app.listen(port, () => console.log(`Example all listening on ${port}!`))
+})
